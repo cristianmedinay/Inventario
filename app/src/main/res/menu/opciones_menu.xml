@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/menu_opcion_uno"
+        android:icon="@drawable/add"
+        android:title="Ver Add"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_opcion_dos"
+        android:icon="@drawable/list"
+        android:title="Ver lista"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_opcion_tres"
+        android:icon="@drawable/common_full_open_on_phone"
+        android:title="Salir"
+        app:showAsAction="always"
+        />
+
+
+</menu>
